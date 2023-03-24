@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de HTML</title>
+    <style>
+    container{
+        background-color: aqua;
+    }
+    </style>
+</head>
+<label><strong>AULA DE HTML</strong></label>
+<body>
+    <fieldset>
+    <h1><strong>O que é HTML?</strong></h1>
+    <li>
+        Hypertext Markup Language(HTML) </li>
+<ol><li>CÓdigo para parágrafo < p >< /p > .</li>
+<li>pra espaço < br >.</li>
+<h2><strong>Anatomia do HTML</strong></h2>
+<li>começa com ! e vs code completará o código.</li>
+<li>Embaixo do head se bota o < title > < / title ></title></li>
+<li>Código link : < a     href = " " > algum nome< / a > .</a></li>
+<li> TAGS LIsta é < li > < / li > </li>
+ <li>A tag < o >      depois dos < li > < / li > </ o l > Vai ordenar a lista numericamente.</li></o></li>
+<li>Citaçoes tag para dar créditos: < blockquote cite =" o link de referencia"  >< /blockquote> .</li>
+<li>Tag address: < adress > </ adress  > < < < vai indicar o enderço da pessoa escrito.</li>
+<li>Tag < iframe  src = "link da pagina url">< /iframe> te permite abrir uma janela na sua pagina com conteudo de outra página.VocÊ se for video no youtube clique em compartilhar e incorporar ai voce copia e cola e da igual ao video de baixo.</li>
+<li>Tag < fieldset ></ fieldset> te permite "fechar uma zona marcando tracejado".</li>
+<h5>EXEMPLO DO IFRAME IMPORTANTE:</h5>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zgdQsLH7sDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</ol></fieldset>
+
+<h3><strong>Elementos genericos</strong></h3>
+ <ol>
+<li>   < div  class = "nome que escolher " > <  / div > VAI DAR A CARACTERÍSTICA <</li>
+<li>< span ></ span> vai deixar tudo na mesma linha </li>
+</ol>
+<fieldset>
+<h4><strong>Trabalhando com mídias utilizando HTML</strong></h4>
+<ol>
+<li>Tag img: Serve para fixar imagem usando a tag  < img src = " endereço da img" </ img ></li>
+<li>Tag de audio: vai só usar para subir o seu audio usando > < audio >
+ < source src="audio.mp3"/> endereço nome que queira botar .
+< /audio>/ / /  se  quiser tirar os botes bote < audio autoplay e repita o resto. pode usar < input type = " range " para ter o o controle do volume.</li> 
+<li>Tag video: para colocar videos no seu web site<.  < video controls > 
+ < source src =" clipe.mp4" />
+ ou < source src = "clipe02.webm"/>
+</ video></li>
+<li>Tag track: ela fica dentro do video ela é a legenda ou chapter: ... < source src =" clipe.mp4" />
+    ou < source src = "clipe02.webm"/>
+  < trak src ="legenda.vtt"kind="escolha algum" srclang=" pt-br"/>
+    </ video> </li>
+ <li>Tag iframe :Roda url de outros sites na sua pagina. ja como informado anteriormente ,nada muda</li>   
+</ol>
+</fieldset>
+</body>
+</html>
