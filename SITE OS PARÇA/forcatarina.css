@@ -1,0 +1,14 @@
+body{
+    color: aqua;
+    background-color: black;
+   backdrop-filter:unset;
+}
+#mn{
+    color: aliceblue;
+    margin-inline: 80px;
+    font-style: italic;
+
+}
+footer{
+   margin-inline: 400px;
+}

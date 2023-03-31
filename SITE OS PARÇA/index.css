@@ -1,0 +1,18 @@
+body{
+    color: white;
+    background-color: black;
+    margin-block-end: 30px;
+}
+img{
+    border-radius: 270px;
+    border-style: outset ;
+    border-color: blanchedalmond;
+    border-top-color: beige;
+}
+fieldset{
+    background-attachment: inherit;
+    margin-left: 30px;
+}
+#vc{
+    margin: 30px;
+}
